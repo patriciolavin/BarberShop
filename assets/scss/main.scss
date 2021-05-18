@@ -1,0 +1,41 @@
+// main.scss # Manifest File
+
+//Abstract
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+// @import 'abstracts/placeholders';
+// @import 'abstracts/functions';
+
+// Vendors
+@import 'vendors/bootstrap4.6.0/bootstrap.scss';
+// @import 'vendors/jquery-ui';
+
+//Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+//Layout
+@import 'layout/forms';
+@import 'layout/section';
+@import 'layout/header';
+@import 'layout/footer';
+// @import 'layout/grid';
+// @import 'layout/sidebar';
+
+//Components
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/navbar';
+@import 'components/paginador'
+// @import 'components/carousel';
+// @import 'components/cover';
+// @import 'components/dropdown';
+
+// Pages
+// @import 'pages/home';
+// @import 'pages/contact';
+
+// Themes
+// @import 'themes/theme';
+// @import 'themes/admin';

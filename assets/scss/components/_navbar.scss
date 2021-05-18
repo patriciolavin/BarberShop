@@ -1,0 +1,24 @@
+//=====  Navbar  =====
+
+.navbar {
+  background-color: $eerie-black;
+}
+
+a.navbar-brand {
+  display: inline-block;
+  width: 30%;
+}
+
+.navbar__logo {
+  display: inline-block;
+  width: 20%;
+}
+
+.nav-item {
+  &:hover {
+    background-color: $nickel;
+    color: $white;
+    border-radius: 50%;
+    border-image-width: 30px;
+  }
+}

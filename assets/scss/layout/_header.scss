@@ -1,0 +1,69 @@
+header {
+  margin: 0;
+  padding: 0;
+  font-family: $playfair;
+}
+
+.main__container {
+  background: url("../img/post-image.jpg") no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  min-height: 800px;
+  margin: auto;
+}
+
+.main__container__titulo {
+  font-family: $playfair;
+  color: $white;
+  font-weight: $black;
+  font-size: $xx-large;
+  margin: 100px auto;
+  font-style: italic;
+}
+
+
+
+
+.encabezado {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .main__container {
+      min-height: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main__container__titulo {
+      font-size: 20pt;
+      min-height: 0;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .main__container__titulo {
+      font-size: 30pt;
+      min-height: 0;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .main__container__titulo {
+      font-size: 40pt;
+    }
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .main__container__titulo {
+      font-size: 50pt;
+      min-height: 0;
+    }
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .main__container__titulo {
+      font-size: 60pt;
+      min-height: 0;
+    }
+  }
+}

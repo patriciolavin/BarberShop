@@ -1,0 +1,35 @@
+.pagination > li > a
+{
+    background-color: E6E7E7;
+    color: $lightgray;
+    
+}
+
+li > a {
+    border-radius: 20%!Important;
+
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: $lightgray!Important;
+    border: solid 1px $lightgray !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: $rudy-pink !Important;
+    border: solid 1px $rudy-pink;
+}
+

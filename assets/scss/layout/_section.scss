@@ -1,0 +1,163 @@
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    &__img {
+      border-radius: 50%;
+      align-items: flex-start;
+      width: auto;
+    }
+
+    &__name {
+      font-family: $playfair;
+      font-weight: $black;
+      color: $eerie-black;
+      font-style: italic;
+      align-items: center;
+      vertical-align: middle;
+    }
+
+    &__rrss {
+      font-family: $roboto;
+      font-size: $large;
+      color: $spanish-pink;
+      margin-top: 20px;
+      align-items: center;
+      vertical-align: middle;
+      margin-bottom: -4px;
+    }
+
+    &__web {
+      font-family: $roboto;
+      font-size: $large;
+      color: $spanish-pink;
+      align-items: center;
+      vertical-align: middle;
+    }
+
+    &__text {
+      align-items: flex-end;
+      color: $lightgray;
+      line-height: 30px;
+    }
+}
+
+.article {
+
+  &__titulo {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $medium;
+    color: $lightgray;
+    margin: 40px 0 40px 8px;
+  }
+  
+  &__parrafo {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: justify;
+    color: $lightgray;
+  }
+  
+  &__destacado {
+    color: $fuzzy-wuzzy;
+  }
+}
+
+
+
+
+.author {
+/* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    display: flex;
+    height: 400px;
+
+      &__img {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      &__name {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__rrss {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      &__web {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__text {
+        display: none;
+      }
+  }
+}
+
+
+.author {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 600px) {
+      display: flex;
+      height: 400px;
+  
+        &__img {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20%;
+          margin: 0 auto;
+        }
+  
+        &__name {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+  
+        &__rrss {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+  
+        &__web {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    }
+  }
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main__container__titulo {
+      font-size: 30pt;
+    }
+    .author__img {
+      width: 100%;
+    }
+}
