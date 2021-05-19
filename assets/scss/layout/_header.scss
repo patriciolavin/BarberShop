@@ -4,6 +4,10 @@ header {
   font-family: $playfair;
 }
 
+.encabezado {
+  position: relative;
+}
+
 .main__container {
   background: url("../img/post-image.jpg") no-repeat;
   background-size: cover;
@@ -21,7 +25,13 @@ header {
   font-style: italic;
 }
 
-
+.fa-angle-double-down {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  color: $white;
+  font-size: 60px;
+}
 
 
 .encabezado {
@@ -30,39 +40,69 @@ header {
     .main__container {
       min-height: 0;
     }
+    .fa-angle-double-down {
+      bottom: 30%;
+      font-size: 20px;
   }
-
+}
   @media only screen and (max-width: 600px) {
     .main__container__titulo {
-      font-size: 20pt;
+      font-size: 30px;
       min-height: 0;
     }
+    .fa-angle-double-down {
+      position: absolute;
+      left: 50%;
+      top: 85%;
+      color: $white;
+      font-size: 30px;
+  }
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     .main__container__titulo {
-      font-size: 30pt;
+      font-size: 40px;
       min-height: 0;
+    }
+    .fa-angle-double-down {
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      color: $white;
+      font-size: 40px;
     }
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .main__container__titulo {
-      font-size: 40pt;
+      font-size: 50px;
     }
+    .fa-angle-double-down {
+      position: absolute;
+      left: 50%;
+      top: 55%;
+      color: $white;
+      font-size: 50px;
+  }
   }
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .main__container__titulo {
-      font-size: 50pt;
+      font-size: 60px;
       min-height: 0;
     }
+    .fa-angle-double-down {
+      left: 50%;
+      top: 75%;
+      color: $white;
+      font-size: 60px;
+  }
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .main__container__titulo {
-      font-size: 60pt;
+      font-size: 70px;
       min-height: 0;
     }
   }

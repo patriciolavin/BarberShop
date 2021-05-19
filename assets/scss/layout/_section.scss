@@ -23,8 +23,8 @@
       font-size: $large;
       color: $spanish-pink;
       margin-top: 20px;
-      align-items: center;
-      vertical-align: middle;
+      align-items: left;
+      vertical-align: left;
       margin-bottom: -4px;
     }
 
@@ -32,8 +32,8 @@
       font-family: $roboto;
       font-size: $large;
       color: $spanish-pink;
-      align-items: center;
-      vertical-align: middle;
+      align-items: left;
+      vertical-align: left;
     }
 
     &__text {
@@ -129,22 +129,22 @@
         &__name {
           flex: 1;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-items: left;
+          justify-content: left;
         }
   
         &__rrss {
             flex: 1;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: left;
+            justify-content: left;
         }
   
         &__web {
           flex: 1;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-items: left;
+          justify-content: left;
         }
     }
   }
@@ -155,9 +155,9 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .main__container__titulo {
-      font-size: 30pt;
+      font-size: 30px;
     }
     .author__img {
-      width: 100%;
+      width: auto;
     }
 }

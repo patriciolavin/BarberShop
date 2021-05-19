@@ -1,35 +1,41 @@
-.pagination > li > a
-{
-    background-color: E6E7E7;
-    color: $lightgray;
-    
+.pag-bar {
+  background-color: $platinum;
+  height: 150px;
+
+  &__item {
+    padding-top: 3.5rem;
+    font-family: $roboto;
+    font-weight: $regular;
+  }
+
+  &__items {
+    color: $eerie-black;
+  }
+
+  &__items-next {
+    color: $eerie-black;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+  }
+
+  &__items-dis {
+    color: $nickel;
+    border-top-left-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+  }
+
+  &__items-dis:hover {
+    background-color: $nickel;
+    color: $white;
+  }
+
+  &__items-next:hover {
+    background-color: $nickel;
+    color: $white;
+  }
+
+  &__items:hover {
+    background-color: $nickel;
+    color: $white;
+  }
 }
-
-li > a {
-    border-radius: 20%!Important;
-
-}
-
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover
-{
-    color: #5a5a5a;
-    background-color: #eee;
-    border-color: #ddd;
-}
-
-.pagination > .active > a
-{
-    color: white;
-    background-color: $lightgray!Important;
-    border: solid 1px $lightgray !Important;
-}
-
-.pagination > .active > a:hover
-{
-    background-color: $rudy-pink !Important;
-    border: solid 1px $rudy-pink;
-}
-
